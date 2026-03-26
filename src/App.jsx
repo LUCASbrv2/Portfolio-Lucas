@@ -248,12 +248,7 @@ function App() {
             <a href="https://www.linkedin.com/in/lucas-brevet-18506a386" target="_blank" rel="noopener noreferrer" className="btn btn-light rounded-circle p-3 shadow hover-zoom-card d-flex align-items-center justify-content-center" style={{ width: '60px', height: '60px' }}>
               <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="w-100" />
             </a>
-            
-            <a href="https://www.instagram.com/ton-compte" target="_blank" rel="noopener noreferrer" className="btn btn-light rounded-circle p-3 shadow hover-zoom-card d-flex align-items-center justify-content-center" style={{ width: '60px', height: '60px' }}>
-              <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram" className="w-100" />
-            </a>
-
-            <a href="https://www.facebook.com/ton-compte" target="_blank" rel="noopener noreferrer" className="btn btn-light rounded-circle p-3 shadow hover-zoom-card d-flex align-items-center justify-content-center" style={{ width: '60px', height: '60px' }}>
+          <a href="https://www.facebook.com/lucas.brevet.92" target="_blank" rel="noopener noreferrer" className="btn btn-light rounded-circle p-3 shadow hover-zoom-card d-flex align-items-center justify-content-center" style={{ width: '60px', height: '60px' }}>
               <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" className="w-100" />
             </a>
           </div>
