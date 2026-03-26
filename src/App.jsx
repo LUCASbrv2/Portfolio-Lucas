@@ -31,8 +31,8 @@ function App() {
         <div className="hero-overlay position-absolute top-0 start-0 w-100 h-100" style={{ zIndex: 1 }}></div>
         
         <div className="container position-relative" style={{ zIndex: 2 }} data-aos="zoom-in">
-          <h1 className="display-2 fw-bold mb-3">Lucas Brevet</h1>
-          <p className="lead fs-2 mb-4">Construire des solutions robustes, de la logique C au Web moderne.</p>
+          <h1 className="fw-bold mb-3" style={{ fontSize: "clamp(3rem, 8vw, 5.5rem)" }}>Lucas Brevet</h1>
+<p className="lead mb-4" style={{ fontSize: "clamp(1.2rem, 3vw, 2rem)" }}>Construire des solutions robustes, de la logique C au Web moderne.</p>
           <div className="mt-4">
             <span className="badge bg-light text-primary fs-5 p-3 px-4 rounded shadow-sm ">
               À la recherche d'une alternance (3 ans) - Sept. 2026
@@ -187,7 +187,7 @@ function App() {
             <h2 className="text-center fw-bold mb-5">Mon Temps Libre & Engagements</h2>
 
             <div className="card border-0 shadow-sm mb-4 hover-zoom-card overflow-hidden" data-aos="fade-up">
-              <div className="row g-0 align-items-center">
+              <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div className="col-md-8 p-4 p-md-5">
                   <h3 className="h4 text-primary mb-3">🤾‍♂️ Sport : Handball et autres</h3>
                   <p className="text-muted mb-0">Je pratique le handball depuis 11 ans. Ce sport d'équipe m'a appris la rigueur, le dépassement de soi et l'importance de la cohésion de groupe pour atteindre un objectif commun.</p>
@@ -199,7 +199,7 @@ function App() {
             </div>
 
             <div className="card border-0 shadow-sm mb-4 hover-zoom-card overflow-hidden" data-aos="fade-up" data-aos-delay="100">
-              <div className="row g-0 align-items-center">
+              <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div className="col-md-8 p-4 p-md-5">
                   <h3 className="h4 text-primary mb-3">🤝 Vie Associative : Bureau des Sports</h3>
                   <p className="text-muted mb-0">Membre actif du Bureau des Sports de l'ESIEA Laval, je participe à la gestion de l'événementiel sportif de l'école. C'est une super expérience pour développer mes compétences en organisation, en communication et en gestion de projet !</p>
@@ -211,7 +211,7 @@ function App() {
             </div>
 
             <div className="card border-0 shadow-sm mb-4 hover-zoom-card overflow-hidden" data-aos="fade-up" data-aos-delay="200">
-              <div className="row g-0 align-items-center">
+              <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div className="col-md-8 p-4 p-md-5">
                   <h3 className="h4 text-primary mb-3">🎵 Musique</h3>
                   <p className="text-muted mb-0">Passionné par la musique, je passe la plupart de mon temps libre à en écouter. C'est pour moi un excellent moyen de me ressourcer, de me concentrer et de stimuler ma créativité.</p>
@@ -235,14 +235,14 @@ function App() {
             N'hésitez pas à me contacter par email ou via mes réseaux.
           </p>
 
-          <div className="d-flex justify-content-center gap-3 mt-4">
-            <span className="badge bg-primary text-white fs-4 p-3 px-4 rounded shadow-sm ">
-              📧 brevet.lucas53@gmail.com
-            </span>
-            <span className="badge bg-light text-primary fs-4 p-3 px-4 rounded shadow-sm ">
-              📞 06 59 50 62 74
-            </span>
-          </div>
+          <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-4">
+  <span className="badge bg-primary text-white p-3 px-4 rounded shadow-sm text-wrap" style={{ fontSize: "clamp(1rem, 3vw, 1.25rem)" }}>
+    📧 brevet.lucas53@gmail.com
+  </span>
+  <span className="badge bg-light text-primary p-3 px-4 rounded shadow-sm" style={{ fontSize: "clamp(1rem, 3vw, 1.25rem)" }}>
+    📞 06 59 50 62 74
+  </span>
+</div>
 
           <div className="d-flex justify-content-center gap-3 mb-5 mt-4">
             <a href="https://www.linkedin.com/in/lucas-brevet-18506a386" target="_blank" rel="noopener noreferrer" className="btn btn-light rounded-circle p-3 shadow hover-zoom-card d-flex align-items-center justify-content-center" style={{ width: '60px', height: '60px' }}>

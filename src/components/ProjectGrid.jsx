@@ -54,17 +54,19 @@ export default function ProjectGrid() {
       <div className="container">
         <h2 className="text-center fw-bold mb-4">Mes Réalisations</h2>
         
-        <div className="text-center mb-5">
-          {['all', 'C', 'Web'].map((cat) => (
-            <button 
-              key={cat}
-              className={`btn btn-outline-primary mx-1 hover-zoom-card ${filter === cat ? 'active' : ''}`}
-              onClick={() => setFilter(cat)}
-            >
-              {cat === 'all' ? 'Tous les projets' : `Projets ${cat}`}
-            </button>
-          ))}
-        </div>
+        {/* Remplacement du text-center mb-5 par un d-flex avec gap */}
+<div className="d-flex flex-wrap justify-content-center gap-2 mb-5 ">
+  {['all', 'C', 'Web'].map((cat) => (
+    <button 
+      key={cat}
+      /* J'ai retiré le mx-1 ici car le gap s'occupe de l'espacement */
+      className={`btn btn-outline-primary hover-zoom-card ${filter === cat ? 'active' : ''}`}
+      onClick={() => setFilter(cat)}
+    >
+      {cat === 'all' ? 'Tous les projets' : `Projets ${cat}`}
+    </button>
+  ))}
+</div>
 
         <div className="row g-4">
           {filteredProjects.map((project, index) => (
