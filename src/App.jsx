@@ -34,7 +34,7 @@ function App() {
           <h1 className="fw-bold mb-3" style={{ fontSize: "clamp(3rem, 8vw, 5.5rem)" }}>Lucas Brevet</h1>
 <p className="lead mb-4" style={{ fontSize: "clamp(1.2rem, 3vw, 2rem)" }}>Construire des solutions robustes, de la logique C au Web moderne.</p>
           <div className="mt-4">
-           <span className="badge bg-light text-primary fs-5 p-3 px-4 rounded shadow-sm text-wrap">
+           <span className="badge  text-light fs-5 p-3 px-4 rounded shadow-sm text-wrap" style={{ backgroundColor: "rgba(0, 0, 0, 0.45)" }}>
   À la recherche d'une alternance (3 ans) - Sept. 2026
 </span>
           </div>
