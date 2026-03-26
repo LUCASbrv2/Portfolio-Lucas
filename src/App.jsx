@@ -10,19 +10,19 @@ function App() {
         
         {/* NOUVEAU : Vidéo YouTube en arrière-plan */}
         <iframe
-          className="position-absolute"
-          /* ⚠️ ASTUCE YOUTUBE : 
-             - autoplay=1 & mute=1 (Obligatoire pour que ça se lance tout seul)
-             - loop=1 & playlist=ID (Obligatoire pour que la vidéo tourne en boucle)
-             - controls=0 (Cache la barre de lecture) */
-          src="https://www.youtube.com/embed/4Uqpv7WaS44?autoplay=1&mute=1&loop=1&controls=0&rel=0&showinfo=0&disablekb=1&playlist=4Uqpv7WaS44"
+          className="position-absolute top-50 start-50 translate-middle" /* Centre parfaitement l'iframe */
+          /* ⚠️ ASTUCE YOUTUBE ... */
+          src="https://www.youtube.com/embed/4Uqpv7WaS44?autoplay=1&mute=1&loop=1&controls=0&rel=0&showinfo=0&disablekb=1&playlist=4Uqpv7WaS44&playsinline=1" /* J'ai rajouté playsinline=1 pour iOS ! */
           style={{
             width: '100vw',
             height: '100vh',
-            pointerEvents: 'none', /* Empêche l'utilisateur de mettre pause en cliquant sur le fond */
-            transform: 'scale(1.5)', /* Zoom de 50% pour cacher les bordures et le logo YouTube */
+            minWidth: '100%', /* S'assure qu'il couvre toujours l'écran */
+            minHeight: '100%', /* S'assure qu'il couvre toujours l'écran */
+            pointerEvents: 'none',
+            transform: 'translate(-50%, -50%) scale(1.5)', /* On recentre + le zoom */
             zIndex: 0,
-            border: 'none'
+            border: 'none',
+            maxWidth: '100vw' /* Empêche le débordement horizontal */
           }}
           allow="autoplay; encrypted-media"
         ></iframe>
