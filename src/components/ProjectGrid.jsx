@@ -58,7 +58,7 @@ export default function ProjectGrid() {
           {['all', 'C', 'Web'].map((cat) => (
             <button 
               key={cat}
-              className={`btn btn-outline-primary mx-1 ${filter === cat ? 'active' : ''}`}
+              className={`btn btn-outline-primary mx-1 hover-zoom-card ${filter === cat ? 'active' : ''}`}
               onClick={() => setFilter(cat)}
             >
               {cat === 'all' ? 'Tous les projets' : `Projets ${cat}`}

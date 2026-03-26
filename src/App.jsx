@@ -52,7 +52,7 @@ function App() {
                 <h2 className="fw-bold mb-4 text-primary">À propos de moi</h2>
                 <div data-aos="fade-left">
                   <p className="lead text-dark">Étudiant en 2e année à l'ESIEA - Laval, je recherche une alternance de 3 ans en cybersécurité ou développement web à partir de septembre 2026. Curieux, motivé et autonome, je souhaite contribuer activement à des projets concrets au sein d'une équipe dynamique.</p>
-                  <a href="#contact" className="btn btn-primary btn-lg mt-3 shadow">Me contacter</a>
+                  <a href="#contact" className="btn btn-primary btn-lg mt-3 shadow hover-zoom-card">Me contacter</a>
                 </div>
               </div>
             </div>

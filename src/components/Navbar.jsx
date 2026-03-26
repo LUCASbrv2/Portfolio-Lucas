@@ -20,16 +20,16 @@ export default function Navbar() {
 
             {/* 2. LOGO POUR ORDINATEUR (Caché sur mobile, collé juste avant "Accueil" !) */}
             <li className="nav-item d-none d-lg-block me-2">
-              <a className="nav-link p-0" href="#accueil">
+              <a className="nav-link p-0 hover-zoom-card2" href="#accueil">
                 <img src="https://cdn.phototourl.com/free/2026-03-25-a35c06f7-acc6-4150-80bb-8579c3145ca9.png" alt="Logo" className="rounded " width="100" height="90" loading="lazy" />
               </a>
             </li>
-            <li className="nav-item"><a className="nav-link px-3" href="#accueil">Accueil</a></li>
-            <li className="nav-item"><a className="nav-link px-3" href="#profil">Profil</a></li>
-            <li className="nav-item"><a className="nav-link px-3" href="#projets">Projets</a></li>
-            <li className="nav-item"><a className="nav-link px-3" href="#parcours">Parcours</a></li>
-            <li className="nav-item"><a className="nav-link px-3" href="#loisirs">Hobbies</a></li>
-            <li className="nav-item"><a className="nav-link px-3" href="#contact">Contact</a></li>
+            <li className="nav-item" ><a className="nav-link px-3 hover-zoom-card2" href="#accueil">Accueil</a></li>
+            <li className="nav-item"><a className="nav-link px-3 hover-zoom-card2" href="#profil">Profil</a></li>
+            <li className="nav-item"><a className="nav-link px-3 hover-zoom-card2" href="#projets">Projets</a></li>
+            <li className="nav-item"><a className="nav-link px-3 hover-zoom-card2" href="#parcours">Parcours</a></li>
+            <li className="nav-item"><a className="nav-link px-3 hover-zoom-card2" href="#loisirs">Hobbies</a></li>
+            <li className="nav-item"><a className="nav-link px-3 hover-zoom-card2" href="#contact">Contact</a></li>
 
           </ul>
         </div>

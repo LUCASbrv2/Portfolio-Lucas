@@ -34,6 +34,15 @@ $font-family-base: 'Roboto Symbols', sans-serif;
   z-index: 1; 
 }
 
+.hover-zoom-card2 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-zoom-card2:hover {
+  transform: translateY(-5px) scale(1.03);
+ 
+  z-index: 1; 
+}
+
 /* Overlay sombre pour que le texte reste lisible sur la vidéo */
 .hero-overlay {
   background: rgba(8, 72, 135, 0.5); /* Ton bleu foncé en semi-transparent */
