@@ -68,7 +68,7 @@ function App() {
               <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div className="card h-100 border-0 shadow-sm p-3 skill-card">
                   <h5 className="fw-bold text-primary">🌐 Développement Front-End</h5>
-                  <p className="text-muted small mb-0">Création d'interfaces modernes avec HTML5, CSS3, JavaScript et la bibliothèque React.</p>
+                  <p className="text-muted small mb-0">Création d'interfaces modernes avec HTML5, CSS3, JavaScript et la framework React.</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
@@ -89,9 +89,9 @@ function App() {
             <div className="row g-4">
               <div className="col-md-6">
                 <h3 className="h4 mb-4 text-primary">🎓 Formation</h3>
-                <ul className="list-group list-group-flush shadow-sm">
+                <ul className="list-group list-group-flush  skill-card p-3 border-0">
                   
-                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="100">
+                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="100" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
                     <h5 className="text-primary mb-2">🎓 École d'Ingénieurs (ESIEA)</h5>
                     <h6 className="fw-bold mb-1">Cycle préparatoire, 2ème année | Laval (2024 - 2026)</h6>
                     <p className="text-muted mb-3 small">
@@ -104,7 +104,7 @@ function App() {
                     </div>
                   </li>
 
-                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="200">
+                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="200" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
                     <h5 className="text-primary mb-2">🏫 Baccalauréat Général</h5>
                     <h6 className="fw-bold mb-1">Lycée Don Bosco, Mayenne | 2023 - 2024</h6>
                     <p className="text-muted mb-3 small">
@@ -122,11 +122,11 @@ function App() {
 
               <div className="col-md-6">
                 <h3 className="h4 mb-4 text-primary">💼 Expériences</h3>
-                <ul className="list-group list-group-flush shadow-sm">
-                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="100">
-                    <h5 className="text-primary mb-3">🌱 Projets à impact RSE</h5>
+                <ul className="list-group list-group-flush skill-card p-3 border-0 " >
+                  <li className="list-group-item p-4 " data-aos="fade-up" data-aos-delay="100" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
+                    <h5 className="text-primary mb-3 ">🌱 Projets à impact RSE</h5>
                     
-                    <div className="mb-3">
+                    <div className="mb-3 ">
                       <h6 className="fw-bold mb-1">Challenge Citoyen (2025/2026)</h6>
                       <p className="text-muted mb-2 small">
                         Gestion de la communication et aide à l'organisation d'un événement sportif et mémoriel.
@@ -139,7 +139,7 @@ function App() {
                     </div>
 
                     <div>
-                      <h6 className="fw-bold mb-1">Soutien Scolaire (2024/2025)</h6>
+                      <h6 className="fw-bold mb-1 ">Soutien Scolaire (2024/2025)</h6>
                       <p className="text-muted mb-2 small">
                         Accompagnement et aide méthodologique pour des élèves en difficulté au Lycée Hautes-Follis (Laval).
                       </p>
@@ -151,7 +151,7 @@ function App() {
                     </div>
                   </li>
                   
-                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="200">
+                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="200" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
                     <h5 className="text-primary mb-2">📦 Magasinier</h5>
                     <h6 className="fw-bold mb-1">BUT Cosy, Mayenne | Juil. - Août (2024 & 2025)</h6>
                     <p className="text-muted mb-3 small">
@@ -164,7 +164,7 @@ function App() {
                     </div>
                   </li>
 
-                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="300">
+                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="300" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
                     <h5 className="text-primary mb-2">💻 Technicien en informatique (Stages)</h5>
                     <h6 className="fw-bold mb-1">EM Informatique & Maine Services | 2021 & 2022</h6>
                     <p className="text-muted mb-3 small">
