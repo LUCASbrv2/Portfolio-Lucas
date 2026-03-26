@@ -1,0 +1,45 @@
+/* --- COULEURS GLOBALES --- */
+$primary: #084887; // Ton bleu foncé
+$body-bg: #D7DFFE; // Ton bleu très clair pour le fond du site
+$text-color: #333333; 
+
+$font-family-sans-serif: 'Roboto Symbols', sans-serif;
+$font-family-base: 'Roboto Symbols', sans-serif;
+
+@import "bootstrap/scss/bootstrap";
+
+/* --- NAVBAR TRANSPARENTE (Effet Verre) --- */
+.navbar-glass {
+  background: rgba(215, 223, 254, 0.25) !important; /* Ton bleu clair en transparent */
+  backdrop-filter: blur(10px); /* Flou derrière la barre */
+  box-shadow: 0 4px 15px rgba(8, 72, 135, 0.1);
+  padding: 0.5rem 1rem; /* Réduction du padding vertical */
+}
+
+.navbar-glass .nav-link {
+  color: #000000 !important;
+  font-weight: 500;
+}
+.navbar-glass .navbar-brand {
+  color: #000000 !important;
+}
+
+/* --- ANIMATIONS & UTILITAIRES --- */
+.hover-zoom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-zoom-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(8, 72, 135, 0.2) !important;
+  z-index: 1; 
+}
+
+/* Overlay sombre pour que le texte reste lisible sur la vidéo */
+.hero-overlay {
+  background: rgba(8, 72, 135, 0.5); /* Ton bleu foncé en semi-transparent */
+}
+
+/* Design des cartes de compétences */
+.skill-card {
+  border-left: 4px solid #084887 !important;
+}

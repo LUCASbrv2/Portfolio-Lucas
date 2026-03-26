@@ -1,0 +1,17 @@
+/* 1. ON CHANGE LES VARIABLES BOOTSTRAP */
+:root {
+  --bs-font-sans-serif: 'Roboto', sans-serif !important;
+  --bs-body-font-family: 'Roboto', sans-serif !important;
+  --bs-heading-font-family: 'Roboto', sans-serif !important;
+}
+
+/* 2. ON FORCE L'APPLICATION SUR TOUT LE SITE */
+*, body, h1, h2, h3, h4, h5, h6, p, a, span, button, div, li {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* 3. TON FOND BLEU UNI */
+body {
+  margin: 0;
+  background-color: #D7DFFE !important; 
+}
