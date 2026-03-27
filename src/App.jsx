@@ -74,7 +74,7 @@ function App() {
               <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div className="card h-100 border-0 shadow-sm p-3 skill-card">
                   <h5 className="fw-bold text-primary">⚙️ Logiciels & Outils</h5>
-                  <p className="text-muted small mb-0">VS Code, Git/GitHub, Figma utilisation d'outils de maintenance informatique et optimisation système.</p>
+                  <p className="text-muted small mb-0">VS Code, Git/GitHub, Figma, Netlify, Quartus Prime utilisation d'outils de maintenance informatique et optimisation système.</p>
                 </div>
               </div>
             </div>
@@ -89,22 +89,37 @@ function App() {
             <div className="row g-4">
               <div className="col-md-6">
                 <h3 className="h4 mb-4 text-primary">🎓 Formation</h3>
-                <ul className="list-group list-group-flush  skill-card p-3 border-0">
+                <ul className=" list-group list-group-flush  p-3 border-0">
                   
-                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="100" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
+                  <li className="list-group-item p-4 skill-card" data-aos="fade-up" data-aos-delay="100" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
                     <h5 className="text-primary mb-2">🎓 École d'Ingénieurs (ESIEA)</h5>
                     <h6 className="fw-bold mb-1">Cycle préparatoire, 2ème année | Laval (2024 - 2026)</h6>
                     <p className="text-muted mb-3 small">
                       Apprentissage de l'informatique et des sciences de l'ingénieur. Réalisation de multiples projets concrets : développement de jeux vidéo (C) et conception de solutions Web sécurisées.
                     </p>
                     <div className="d-flex flex-wrap gap-1">
-                      <span className="badge bg-light text-secondary border">Algorithmique (C)</span>
+                      <span className="badge bg-light text-secondary border">Algorithmique Avancée (C)</span>
+                      <span className="badge bg-light text-secondary border">Électronique Numérique (FPGA/VHDL)</span>
+                      <span className="badge bg-light text-secondary border">Structures de Données</span>
                       <span className="badge bg-light text-secondary border">Développement Web</span>
                       <span className="badge bg-light text-secondary border">Gestion de projet</span>
                     </div>
                   </li>
+                  <li className="list-group-item p-4 skill-card" data-aos="fade-up" data-aos-delay="150" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
+                    <h5 className="text-primary mb-2">💻 Formation en ligne (Autodidacte)</h5>
+                    <h6 className="fw-bold mb-1">Développement Web Full-Stack | Apprentissage en autonomie</h6>
+                    <p className="text-muted mb-3 small">
+                      Acquisition de notions solides des technologies du Web moderne en totale autonomie par le biais de plateformes d'apprentissage en ligne. Mise en pratique directe via la création de projets concrets (dont le développement de ce portfolio de A à Z).
+                    </p>
+                    <div className="d-flex flex-wrap gap-1">
+                      <span className="badge bg-light text-secondary border">HTML5 & CSS3</span>
+                      <span className="badge bg-light text-secondary border">JavaScript & React</span>
+                      <span className="badge bg-light text-secondary border">PHP</span>
+                      <span className="badge bg-light text-secondary border">Autonomie</span>
+                    </div>
+                  </li>
 
-                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="200" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
+                  <li className="list-group-item p-4 skill-card" data-aos="fade-up" data-aos-delay="200" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
                     <h5 className="text-primary mb-2">🏫 Baccalauréat Général</h5>
                     <h6 className="fw-bold mb-1">Lycée Don Bosco, Mayenne | 2023 - 2024</h6>
                     <p className="text-muted mb-3 small">
@@ -122,8 +137,8 @@ function App() {
 
               <div className="col-md-6">
                 <h3 className="h4 mb-4 text-primary">💼 Expériences</h3>
-                <ul className="list-group list-group-flush skill-card p-3 border-0 " >
-                  <li className="list-group-item p-4 " data-aos="fade-up" data-aos-delay="100" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
+                <ul className="list-group list-group-flush" >
+                  <li className="list-group-item p-4 skill-card" data-aos="fade-up" data-aos-delay="100" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
                     <h5 className="text-primary mb-3 ">🌱 Projets à impact RSE</h5>
                     
                     <div className="mb-3 ">
@@ -151,7 +166,7 @@ function App() {
                     </div>
                   </li>
                   
-                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="200" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
+                  <li className="list-group-item p-4 skill-card" data-aos="fade-up" data-aos-delay="200" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
                     <h5 className="text-primary mb-2">📦 Magasinier</h5>
                     <h6 className="fw-bold mb-1">BUT Cosy, Mayenne | Juil. - Août (2024 & 2025)</h6>
                     <p className="text-muted mb-3 small">
@@ -164,7 +179,7 @@ function App() {
                     </div>
                   </li>
 
-                  <li className="list-group-item p-4" data-aos="fade-up" data-aos-delay="300" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
+                  <li className="list-group-item p-4 skill-card" data-aos="fade-up" data-aos-delay="300" style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}>
                     <h5 className="text-primary mb-2">💻 Technicien en informatique (Stages)</h5>
                     <h6 className="fw-bold mb-1">EM Informatique & Maine Services | 2021 & 2022</h6>
                     <p className="text-muted mb-3 small">
