@@ -68,7 +68,7 @@ function App() {
               <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div className="card h-100 border-0 shadow-sm p-3 skill-card">
                   <h5 className="fw-bold text-primary">🌐 Développement Front-End</h5>
-                  <p className="text-muted small mb-0">Création d'interfaces modernes avec HTML5, CSS3, JavaScript et la framework React.</p>
+                  <p className="text-muted small mb-0">Création d'interfaces modernes avec HTML5, CSS3, JavaScript et le framework React.</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
